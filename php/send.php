@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $phone = $_POST['phone'];
 $yMail = $_POST['yMail'];
 
-$myaddres  = "banya832@gmail.com"; //Куда отправить
+$myaddres  = ""; //Куда отправить
  
 $mes = "Тема: Заявка на получение консультации!\nТелефон: $phone\nИмя: $name\nПочта: $yMail";
  
