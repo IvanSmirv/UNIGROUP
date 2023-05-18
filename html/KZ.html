@@ -1,0 +1,393 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>UniGroup</title>
+</head>
+
+<body>
+  <div class="body-wrapper">
+    <div style="display: none; width: 500px;" id="hiddenPopup">
+      <p class="modal__title">Өтініш қалдырыңыз біз сізге қайта қоңырау шаламыз</p>
+      <form action="../php/send.php" method="post" class="connection__form">
+        <input name="name" type="text" placeholder="Аты" required>
+        <input name="phone" type="tel" placeholder="Телефон" required id="phone2">
+        <input name="yMail" type="email" placeholder="Email" required>
+        <button type="submit">Кеңес алыңыз</button>
+      </form>
+    </div>
+    <header id="header" class="header">
+      <div class="container">
+        <div class="header__body">
+          <a href="#" class="header__logo logo">
+            <img src="../img/icons/logo.svg" alt="">
+          </a>
+          <nav class="header__menu">
+            <a class="jsMenuLink" href="#main-page">БІЗ ТУРАЛЫ</a>
+            <a class="jsMenuLink" href="#advantages">Артықшылықтары</a>
+            <a class="jsMenuLink" href="#clients">Клиенттер</a>
+            <a class="jsMenuLink" href="#connection">Байланыс</a>
+            <div class="header__language language">
+              <a href="../index.html">RU</a>
+              <a href="#" class="language-active">KAZ</a>
+            </div>
+            <div class="header__call">
+              <div class="header-call__img">
+                <a href=""><img src="../img/icons/whatsapp.svg" alt=""></a>
+              </div>
+              <div class="header-call__text" data-fancybox href="#hiddenPopup">
+                <p>+7(771)072-14-16</p>
+                <p>Кері қоңырау</p>
+              </div>
+            </div>
+          </nav>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="main-page" class="main-page">
+      <div class="container">
+        <div class="back-color"></div>
+        <div class="main-page__body">
+          <h2 class="main-page__title">ТОО UNIGROUP</h2>
+          <h2 class="main-page__sub-title">Moving (кеңсе көшіру) – кеңселерді толық көшіру бойынша кәсіби қызметтер
+          </h2>
+          <div class="main-page__text">
+            <p>UniGroup компаниясының кеңселерді тасымалдау қызметтерін көрсетуде 4 жылдық тәжірибесі бар.</p>
+            <p>UniGroup компаниясының кеңселерді көшіру қызметтерін көрсетуде 4 жылдық тәжірибесі бар
+              Кеңселерді толық көшіру қызметтерін көрсетеміз. Қызметтерге толығымен бақылау, тәжірибелі жиһазшылар,
+              қаптаушылар, жүк тасушылар, жүк көлігі және қаптау материалдары кіреді.
+              .</p>
+          </div>
+          <div class="main-page__btn">
+            <span data-fancybox href="#hiddenPopup">Кеңес алыңыз</span>
+          </div>
+        </div>
+        <div class="header__link">
+          <img data-fancybox href="#hiddenPopup" src="../img/icons/report.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="slider-1">
+      <div class="container">
+        <div class="slider-1__text">
+          <p>Бүгінгі таңда оннан астам компаниялар мен 4000-нан астам жұмыс аймақтары көшірілді, соның ішінде:
+            «ҚазМұнайГаз» ҰК АҚ, «Атамекен» ҚР ҰКП, «ЦЭФ» АҚ, «Kazakhlnvest» ҰК АҚ, «Зерде» ұлттық холдингі, Тайланд
+            елшілігі, Ауылшаруашылық министрлігі, Бірінші Президент кітапханасы.</p>
+        </div>
+      </div>
+      <div class="special-container">
+        <div class="mySwiper1">
+          <div class="slider-back-left"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-1">
+              <img src="../img/slider-1/item-1.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-1">
+                <img src="../img/slider-1/item-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-2">
+              <img src="../img/slider-1/item-2.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-2">
+                <img src="../img/slider-1/item-2.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-3">
+              <img src="../img/slider-1/item-3.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-3">
+                <img src="../img/slider-1/item-3.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-4">
+              <img src="../img/slider-1/item-4.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-4">
+                <img src="../img/slider-1/item-4.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-5">
+              <img src="../img/slider-1/item-5.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-5">
+                <img src="../img/slider-1/item-5.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-6">
+              <img src="../img/slider-1/item-6.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-6">
+                <img src="../img/slider-1/item-6.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-1">
+              <img src="../img/slider-1/item-1.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-1">
+                <img src="../img/slider-1/item-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-2">
+              <img src="../img/slider-1/item-2.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-2">
+                <img src="../img/slider-1/item-2.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-3">
+              <img src="../img/slider-1/item-3.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-3">
+                <img src="../img/slider-1/item-3.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-4">
+              <img src="../img/slider-1/item-4.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-4">
+                <img src="../img/slider-1/item-4.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-5">
+              <img src="../img/slider-1/item-5.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-5">
+                <img src="../img/slider-1/item-5.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenSlide-6">
+              <img src="../img/slider-1/item-6.jpg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenSlide-6">
+                <img src="../img/slider-1/item-6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="slider-back-right"></div>
+          <div class="swiper-button-next"><img src="img/icons/ChevronCircleRight.svg" alt=""></div>
+          <div class="swiper-button-prev"><img src="img/icons/ChevronCircleLeft.svg" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <section id="advantages" class="advantages">
+      <div class="container">
+        <div class="advantages__body">
+          <h2 class="advantages__title">КОМПАНИИЯНЫҢ АРТЫҚШЫЛЫҚТАРЫ</h2>
+          <div class="advantages__rows">
+            <div class="advantages__row-1 advantages__row">
+              <div class="advantages__advantage">
+                <div class="advantage__img"><img src="../img/icons/advantage-1.svg" alt=""></div>
+                <div class="advantage__text">
+                  <p>Толық көлемге қажетті қаптау материалдарын есептеп береміз </p>
+                </div>
+              </div>
+              <div class="advantages__advantage">
+                <div class="advantage__img"><img src="../img/icons/advantage-2.svg" alt=""></div>
+                <div class="advantage__text">
+                  <p>Тиеуді, түсіруді, жиһазды бұзу мен жинауды толығамен бақылауда ұстаймыз.</p>
+                </div>
+              </div>
+              <div class="advantages__advantage">
+                <div class="advantage__img"><img loading="lazy" src="../img/icons/advantage-3.svg" alt=""></div>
+                <div class="advantage__text">
+                  <p>Үйренген тәжірибелі персонал – жиһазшылар, қаптаушылар және жүк тасушылар.</p>
+                </div>
+              </div>
+              <div class="advantages__advantage">
+                <div class="advantage__img"><img src="../img/icons/advantage-4.svg" alt=""></div>
+                <div class="advantage__text">
+                  <p>Қаптау материалдарымен қамтамасыз етеміз (қорабтар, стрейч үлдір, скотч, бұдырлы үлдір)</p>
+                </div>
+              </div>
+            </div>
+            <div class="advantages__row-2 advantages__row">
+              <div class="advantages__advantage">
+                <div class="advantage__img"><img src="../img/icons/advantage-5.svg" alt=""></div>
+                <div class="advantage__text">
+                  <p>Біздің жиһазшылар жиһаздарыңызды ұқыпты бұзып, қаптап тиеуге дайындайды.</p>
+                </div>
+              </div>
+              <div class="advantages__advantage">
+                <div class="advantage__img"><img src="../img/icons/advantage-6.svg" alt=""></div>
+                <div class="advantage__text">
+                  <p>Тәжірибелі жүк тасушылар тиеу мен түсіруді және апарған жерге қайтадан орналастыруды ұқыпты
+                    ұйымдастырады </p>
+                </div>
+              </div>
+              <div class="advantages__advantage">
+                <div class="advantage__img"><img src="../img/icons/advantage-7.svg" alt=""></div>
+                <div class="advantage__text">
+                  <p>Тізімге сәйкес көшірілетін мүлікке толық материалды жауап береміз</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider-2">
+      <h2 class="slider-2__title">
+        Пікірлер
+      </h2>
+      <div class="special-container">
+        <div class="mySwiper1">
+          <div class="slider-back-left"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew1">
+              <img src="../img/slider-2/item-1.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew1">
+                <img src="../img/slider-2/item-1.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew2">
+              <img src="../img/slider-2/item-2.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew2">
+                <img src="../img/slider-2/item-2.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew3">
+              <img src="../img/slider-2/item-3.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew3">
+                <img src="../img/slider-2/item-3.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew4">
+              <img src="../img/slider-2/item-4.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew4">
+                <img src="../img/slider-2/item-4.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew5">
+              <img src="../img/slider-2/item-5.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew5">
+                <img src="../img/slider-2/item-5.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew6">
+              <img src="../img/slider-2/item-6.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew6">
+                <img src="../img/slider-2/item-6.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew1">
+              <img src="../img/slider-2/item-1.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew1">
+                <img src="../img/slider-2/item-1.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew2">
+              <img src="../img/slider-2/item-2.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew2">
+                <img src="../img/slider-2/item-2.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew3">
+              <img src="../img/slider-2/item-3.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew3">
+                <img src="../img/slider-2/item-3.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew4">
+              <img src="../img/slider-2/item-4.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew4">
+                <img src="../img/slider-2/item-4.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew5">
+              <img src="../img/slider-2/item-5.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew5">
+                <img src="../img/slider-2/item-5.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide" data-fancybox href="#hiddenRewiew6">
+              <img src="../img/slider-2/item-6.svg" alt="">
+              <div style="display: none; width: 500px;" id="hiddenRewiew6">
+                <img src="../img/slider-2/item-6.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="slider-back-right"></div>
+          <div class="swiper-button-next"><img src="img/icons/ChevronCircleRight.svg" alt=""></div>
+          <div class="swiper-button-prev"><img src="img/icons/ChevronCircleLeft.svg" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <section id="clients" class="clients">
+      <div class="container">
+        <div class="clients__body">
+          <h2 class="clients__title">Наши клиенты</h2>
+          <div class="clients__block">
+            <a href="#" class="clients__item"><img src="../img/icons/client-1.svg" alt=""></a>
+            <a href="#" class="clients__item"><img src="../img/icons/client-2.svg" alt=""></a>
+            <a href="#" class="clients__item"><img src="../img/icons/client-3.svg" alt=""></a>
+            <a href="#" class="clients__item"><img src="../img/icons/client-4.svg" alt=""></a>
+            <a href="#" class="clients__item"><img src="../img/icons/client-5.svg" alt=""></a>
+            <a href="#" class="clients__item"><img src="../img/icons/client-6.svg" alt=""></a>
+            <a href="#" class="clients__item"><img src="../img/icons/client-7.svg" alt=""></a>
+            <a href="#" class="clients__item"><img src="../img/icons/client-8.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="connection" class="connection">
+      <div class="container">
+        <div class="back-color-2"></div>
+        <div class="footer__link" data-fancybox href="#hiddenPopup">
+          <img src="../img/icons/call.svg" alt="">
+        </div>
+        <div class="connection__body">
+          <h2 class="connection__title">Бізбен қалай байланысуға болады</h2>
+          <div class="connection__media">
+            <div class="connection__links">
+              <div>
+                <a href="#"><img src="../img/icons/whatsapp.svg" alt=""></a>
+              </div>
+              <div>
+                <a href="#"><img src="../img/icons/insta.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="connection__phones">
+              <a href="tel:+77710721416">+7(771)072-14-16</a>
+              <a href="tel:+77056026664">+7(705)602-66-64</a>
+            </div>
+          </div>
+          <form action="../php/send.php" method="post" class="connection__form">
+            <input name="name" type="text" placeholder="Аты" required>
+            <input name="phone" type="tel" placeholder="Телефон" required id="phone2">
+            <input name="yMail" type="email" placeholder="Email" required>
+            <button type="submit">Кеңес алыңыз</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <div>
+            <a href="#" class="footer__logo logo">
+              <img src="../img/icons/logo.svg" alt="">
+            </a>
+            <a href="#">Негізгі сайтқа өтіңіз </a>
+          </div>
+          <nav class="footer__menu">
+            <a class="jsMenuLink" href="#main-page">біз туралы</a>
+            <a class="jsMenuLink" href="#advantages">Артықшылықтары</a>
+            <a class="jsMenuLink" href="#clients">Клиенттер</a>
+            <a class="jsMenuLink" href="#connection">Байланыс</a>
+            <div class="footer__text" data-fancybox href="#hiddenPopup">
+              <p>+7(771)072-14-16</p>
+              <p>Кері қоңырау</p>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js.map"></script>
+  <script src="../js/DynamicAdaptive.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
